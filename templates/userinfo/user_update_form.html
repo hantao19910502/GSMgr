@@ -1,0 +1,88 @@
+{% extends "index.html" %}
+
+{% block body %}
+<script>
+    function handleFiles(files) {
+        if (files.length) {
+            var file = files[0];
+            var reader = new FileReader();
+            if (/text\/\w+/.test(file.type)) {
+                reader.onload = function () {
+                    $("#id_key").val(this.result);
+                }
+                reader.readAsText(file);
+            }
+        }
+
+    }
+    function validate(form) {
+        var ret = pass();
+        return ret;
+    }
+    function pass() {
+
+        var password = '', repassword = '';
+
+        password = $('#pass1 input').val();
+
+        repassword = $('#pass2 input').val();
+        if (password === '' || repassword === '') {
+            return false;
+        }
+
+        if (password.length < 6) {
+
+            alert('密码最低由6位字符组成');
+            return false;
+        }
+        if (password != repassword) {
+            alert('输入的密码不一致');
+            return false;
+        }
+        return true;
+    }
+</script>
+
+
+    <div class="header">
+        <h1 class="page-header">账号设置</h1>
+  	    <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">账号设置</li>
+	    </ol>
+    </div>
+
+
+
+
+<div id="page-inner">
+    <form action="" method="post" class="form" onsubmit="return validate(this);">{% csrf_token %}
+        <table>
+            <tr>
+                <tr>
+                <th>手机号:</th>
+                <td id="phone">{{ form.phone }}</td>
+            </tr>
+                <th>公钥:</th>
+                <td>{{ form.key }}<label></label></td>
+                <td><a href="http://wiki.babeltime.com/pages/viewpage.action?pageId=9471364"
+                       target="_blank">点击查看生成公钥方法</a></td>
+
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="file" id="file" onchange="handleFiles(this.files)"/></td>
+            </tr>
+
+            <tr>
+                <th>输入密码:</th>
+                <td id="pass1">{{ form.hash_password }}</td>
+            </tr>
+            <tr>
+                <th>请再次输入密码:</th>
+                <td id="pass2">{{ form.hash_password }}</td>
+            </tr>
+        </table>
+        <input type="submit" value="提交"/>
+    </form>
+{% endblock %}

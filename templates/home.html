@@ -1,0 +1,47 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+		<h1 class="page-header">
+            GSMgr <small>Welcome  {{user}}</small>
+        </h1>
+
+         <div class="col-sm-3 col-sm-offset-1 panel-body">
+             <h3 style="margin-bottom:50px;"><B>统计</B></h3>
+
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                    <th>项目</th>
+                    <th>数量</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>开服任务单</th>
+                        <td>{{count.task_sum}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>新提交开服任务单</th>
+                        <td>{{count.new_task_sum}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>有问题区服</th>
+                        <td>{{count.fail_server_sum}}</td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+
+{% endblock%}
+
+
+{% block script %}
+
+
+
+{% endblock%}

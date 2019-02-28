@@ -1,0 +1,83 @@
+{% extends "index.html" %}
+
+{% block header %}
+    <link rel="stylesheet" type="text/css" href="/static/selfcss/selfcss.css"/>
+    <script type="text/javascript" src="/static/qrcode.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            new QRCode(document.getElementById('qrcode'), "otpauth://totp/{{ object.username }}?secret={{ object.vpn_google_key }}");
+
+        });
+    </script>
+
+
+{% endblock %}
+{% block body %}
+
+    <div class="header">
+        <h1 class="page-header">用户信息</h1>
+  	    <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">用户信息</li>
+	    </ol>
+    </div>
+
+
+    <div id="page-inner">
+
+
+        <form action="" method="post" class="form">{% csrf_token %}
+
+            <table width="25%" style="table-layout: fixed">
+                <tr>
+                    <th>编号:</th>
+                    <td>{{ object.id }}</td>
+                </tr>
+                <tr>
+                    <th>用户名:</th>
+                    <td>{{ object.username }}</td>
+                </tr>
+                <tr>
+                    <th>中文名:</th>
+                    <td>{{ object.han_name }}</td>
+                </tr>
+                <tr>
+                    <th>公钥:</th>
+                    <td style="word-break:break-all">{{ object.key }}</td>
+                </tr>
+                <tr>
+                    <th>加密后的密码:</th>
+                    <td style="word-break:break-all">{{ object.hash_password }}</td>
+                </tr>
+                <tr>
+                    <th>邮箱:</th>
+                    <td>{{ object.email }}</td>
+                </tr>
+                <tr>
+                    <th>添加时间:</th>
+                    <td>{{ object.date_joined }}</td>
+                </tr>
+                <tr>
+                    <th>激活状态:</th>
+                    <td>{{ object.is_active }}</td>
+                </tr>
+                <tr>
+                    <th>管理权限:</th>
+                    <td>{{ object.is_admin }}</td>
+                </tr>
+                <tr>
+                    <th>普通权限:</th>
+                    <td>{{ object.is_staff }}</td>
+                </tr>
+                <tr>
+                    <th>Google Auth Key</th>
+                    <td>{{ object.vpn_google_key }}</td>
+                </tr>
+
+            </table>
+
+
+        </form>
+        <div id="qrcode"></div>
+
+{% endblock %}

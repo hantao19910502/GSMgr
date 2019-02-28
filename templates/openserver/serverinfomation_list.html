@@ -1,0 +1,169 @@
+{% extends "index.html" %}
+
+{% block header %}
+    <link href="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <style>
+.zxx_text_overflow{
+        white-space:nowrap;
+        text-overflow:ellipsis;
+        -o-text-overflow:ellipsis;
+        overflow:hidden;}
+
+    </style>
+{% endblock %}
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">区服列表</h1>
+  	  <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">区服列表</li>
+	  </ol>
+    </div>
+
+
+
+
+    <div id="page-inner"><!-- page-inner -->
+
+
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3" >
+
+
+                <div class="col-xs-4 col-xs-offset-2" style="text-align:center;">
+                    <select id="hostprojid" class="form-control">
+                        <option value="None">选择项目</option>
+                        {% for h in hostprojs%}
+                            <option value={{h.1}}>{{h.0}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+
+            </div>
+        </div>
+
+        <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+        <div id="serverids">
+            <table class="table table-hover table-bordered" style="text-align:center;">
+                <caption>游戏服状态</caption>
+                <thead>
+                    <tr>
+                        <th  style="text-align:center;">分组</th>
+                        <th  style="text-align:center;">正常运行服</th>
+                        <th  style="text-align:center;">有问题服</th>
+                        <th  style="text-align:center;">总共</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                {% for h in serverinfo %}
+                    <tr>
+                        <td><B>{{h.0}}</B></td>
+                        <td style="background-color:#00CC99;"><B>{{h.1}}</B></td>
+                        {% if h.2 == 0 %}
+                            <td style="background-color:#00CC99;"><B>{{h.2}}</B></td>
+                        {% else %}
+                            <td style="background-color:#FF5151;"><B>{{h.2}}</B></td>
+                        {%endif%}
+                        <td><B>{{h.3}}</B></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+
+            </table>
+        </div>
+
+    </div><!-- End page-inner -->
+
+{% endblock %}
+
+{% block script%}
+<script src="/static/bootstrap/assets/js/dataTables/jquery.dataTables.js"></script>
+<script src="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js"></script>
+
+    <script>
+        String.prototype.format=function(){
+          if(arguments.length==0) return this;
+          for(var s=this, i=0; i<arguments.length; i++)
+            s=s.replace(new RegExp("\\{"+i+"\\}","g"), arguments[i]);
+          return s;
+        };
+
+        $(document).ready(function () {
+            $("#hostprojid").change(function(){
+                getServer();
+            });
+        });
+
+
+        function showServer(ids){
+            $('#serverids').empty();
+            var tmpstr="<div class='row' style='margin-bottom:20px;'>";
+
+            for(var i=0;i<ids.length;i++){
+                var url = "/openserver/serverinfo/detail/{0}".format(ids[i][0]);
+
+                if(ids[i][2]==2){
+                    tmpstr+="<div class='col-xs-2' style='text-align:center;'><a href="+ url +" class='btn btn-danger btn-block  zxx_text_overflow'  data-toggle='tooltip' title='" + ids[i][1].toString() +"'><i class='fa fa-gamepad' style='float:left;'></i> "+ ids[i][1].toString()+"</a></div>";
+                }else{
+                    tmpstr+="<div class='col-xs-2' style='text-align:center;'><a href="+ url +" class='btn btn-success btn-block  zxx_text_overflow'  data-toggle='tooltip' title='"+ ids[i][1].toString() +"'><i class='fa fa-gamepad' style='float:left;'></i> "+ ids[i][1].toString()+"</a></div>"
+                }
+                var tmp=i+1;
+                if (tmp%6==0){
+                    tmpstr+="</div>";
+                    $('#serverids').append(tmpstr);
+                    tmpstr="<div class='row' style='margin-bottom:20px;'>";
+                }else if(tmp>=ids.length){
+                    tmpstr+="</div>";
+                    $('#serverids').append(tmpstr);
+                }
+            }
+        }
+
+        var getServer = function(){
+            $.ajax({
+              url:'/api/getserverstatuslist',
+              data:{
+                   hostproj : $("#hostprojid").val(),
+              },
+              type:'post',
+              cache:false,
+              dataType:'json',
+              success:function(data) {
+                showServer(data);
+                $("[data-toggle='tooltip']").tooltip();
+
+              },
+              error : function() {
+                alert("异常!!!");
+              }
+            });
+        }
+
+
+        var getHostGroup = function(){
+            $.ajax({
+              url:'/api/gethostgroup',
+              data:{
+                   hostproj : $("#hostprojid").val(),
+              },
+              type:'post',
+              cache:false,
+              dataType:'json',
+              success:function(data) {
+                $("#hostgroupid").empty();
+                $("#hostgroupid").append("<option value='None'>选择分组</option>");
+                for(var i=0;i<data.length;i++){
+                    $("#hostgroupid").append("<option value="+ data[i] +">"+data[i]+"</option>");
+                }
+              },
+              error : function() {
+                alert("异常!!!");
+              }
+            });
+        }
+
+    </script>
+{% endblock %}

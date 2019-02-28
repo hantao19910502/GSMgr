@@ -1,0 +1,58 @@
+{% extends "index.html" %}
+
+
+{% block header %}
+ 	<link href="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">账号列表</h1>
+  	    <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">账号列表</li>
+	    </ol>
+    </div>
+
+
+    <div id="page-inner">
+
+
+        <table class="table" id="user_list">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>用户名</th>
+                <th>邮箱</th>
+                <th style="width: 3.5em;"></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for user in object_list %}
+                <tr>
+                    <td><a href="{% url 'userinfo:user_detail' user.id %}">{{ user.id }}</a></td>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>
+                        <a href="{% url 'userinfo:user_update' user.id %}"><i class="fa fa-pencil"></i></a>
+                        <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+                    </td>
+                </tr>
+            {% empty %}
+                <li>暂无内容</li>
+            {% endfor %}
+
+            </tbody>
+        </table>
+{% endblock %}
+{% block script %}
+	<script src="/static/bootstrap/assets/js/dataTables/jquery.dataTables.js"></script>
+	<script src="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js"></script>
+	<script>
+	    $(document).ready(function () {
+	        $('#user_list').DataTable();
+	
+	    });
+	</script>
+{%  endblock %}

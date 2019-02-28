@@ -1,0 +1,75 @@
+{% extends "index.html" %}
+
+{% block header %}
+    <link href="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+{% endblock %}
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">开服任务单</h1>
+  	  <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">开服任务单</li>
+	  </ol>
+    </div>
+
+
+
+    <div id="page-inner">
+        <div class="table-responsive" >
+            <table class="table table-hover table-bordered" id="host_table">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>项目名</th>
+                    <th>创建时间</th>
+                    <th>状态</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for host in object_list %}
+                    <tr>
+                        <td><a href="{% url 'openserver:openservertask_detail'  host.id %}">{{ host.id }}</a></td>
+                        <td>{{ host.gameproject}}</td>
+                        <td>{{ host.operatetime}}</td>
+
+                        {% if host.status == 1 %}
+                            <td style="color:#428bca;">{{ host.get_status_display}}</td>
+                        {% elif host.status == 3 %}
+                            <td style="color:#FF4500;">{{ host.get_status_display}}</td>
+			            {% elif host.status == 2 %}
+                            <td style="color:#DAA520;">{{ host.get_status_display}}</td>
+			            {% else%}
+                            <td style="color:#008000;">{{ host.get_status_display}}</td>
+			            {% endif %}
+ 			
+                        <td>
+                            {% if host.status == 1 %}
+                            <a href="/api/creategame/{{host.id}}" onclick="return confirm('确认要执行此任务吗？')" data-toggle="modal" title="开服"><i class="fa fa-cloud-upload fa-lg"></i></a>&nbsp&nbsp
+                            {% endif %}
+
+                            <a href="{% url 'openserver:openservertask_detail' host.id %}" data-toggle="modal" title="详情"><i class="fa fa-info fa-lg"></i></a>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <li>暂无内容</li>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script%}
+<script src="/static/bootstrap/assets/js/dataTables/jquery.dataTables.js"></script>
+<script src="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js"></script>
+
+    <script>
+        $(document).ready(function () {
+                $('#host_table').dataTable();
+                $("[data-toggle='modal']").tooltip();
+        });
+    </script>
+{% endblock %}

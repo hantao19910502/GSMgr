@@ -1,0 +1,2604 @@
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 11:43:21] "GET / HTTP/1.1" 302 0
+[11/Feb/2018 11:43:21] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[11/Feb/2018 11:43:25] "GET /user/logged?BabelTimeToken=fe95bd207a3810ba31469aa1e920b22b HTTP/1.1" 302 0
+[11/Feb/2018 11:43:25] "GET / HTTP/1.1" 200 6103
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 200 117305
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 200 10125
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 200 11860
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 200 21577
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 200 443
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 200 35951
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1386
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 200 9066
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90647
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 200 67203
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 200 14817
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 200 6635
+[11/Feb/2018 11:43:25] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[11/Feb/2018 11:43:26] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[11/Feb/2018 11:43:29] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 11:43:29] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 200 852
+[11/Feb/2018 11:43:29] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11276
+[11/Feb/2018 11:43:29] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 733
+[11/Feb/2018 11:43:29] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 200 70107
+[11/Feb/2018 11:43:29] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+[11/Feb/2018 11:43:30] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:43:32] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 23292
+[11/Feb/2018 11:43:38] "POST /api/getgameinfo HTTP/1.1" 200 2
+[11/Feb/2018 11:43:42] "POST /api/getgameinfo HTTP/1.1" 200 2
+[11/Feb/2018 11:43:45] "POST /api/getgameinfo HTTP/1.1" 200 2
+[11/Feb/2018 11:43:45] "POST /api/getgameinfo HTTP/1.1" 200 2
+[11/Feb/2018 11:43:53] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 11:44:06] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 11:44:06] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 200 5178
+[11/Feb/2018 11:44:06] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 200 9614
+[11/Feb/2018 11:44:06] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 200 423608
+[11/Feb/2018 11:44:07] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 200 0
+[11/Feb/2018 11:44:07] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 200 0
+[11/Feb/2018 11:44:11] "GET /api/creategame/5 HTTP/1.1" 301 0
+[11/Feb/2018 11:44:11] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 11:44:11] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+[11/Feb/2018 11:44:24] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+[11/Feb/2018 11:44:26] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+[11/Feb/2018 11:45:44] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+[11/Feb/2018 11:45:58] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 11:46:19] "POST /api/getgameproj HTTP/1.1" 200 28
+Performing system checks...
+
+February 11, 2018 - 11:43:19
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+Error GetGameInfo:  year out of range 
+Error GetGameInfo:  year out of range 
+Error GetGameInfo:  year out of range 
+Error GetGameInfo:  year out of range 
+ost: 40002-70
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+ost: 40002-70
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 11:49:02] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 11:49:48] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:49:59] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 11:50:14] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 11:51:04] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+[11/Feb/2018 11:51:52] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:52:04] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 11:52:10] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:52:22] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 11:52:25] "POST /openserver/opt HTTP/1.1" 200 29
+[11/Feb/2018 11:52:40] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 11:52:45] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 11:52:45] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[11/Feb/2018 11:52:47] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 11:52:48] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[11/Feb/2018 11:53:01] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 11:53:02] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:53:15] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:53:28] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 11:53:31] "POST /openserver/opt HTTP/1.1" 200 29
+[11/Feb/2018 11:53:43] "POST /openserver/opt HTTP/1.1" 200 29
+Performing system checks...
+
+February 11, 2018 - 11:48:56
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+================
+ost: 40002-70
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+================
+ost: 40002-70
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+Error openServerRecord.recordinfo  (1062, "Duplicate entry '40008-70' for key 'serverid'")
+Error openServerRecord.recordinfo  (1062, "Duplicate entry '70009-73' for key 'serverid'")
+Error openServerRecord.recordinfo  (1062, "Duplicate entry '70009-73' for key 'serverid'")
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 11:56:29] "GET /openserver/serverinfo/list HTTP/1.1" 200 10155
+[11/Feb/2018 11:56:30] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 11:56:32] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:56:36] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[11/Feb/2018 11:56:40] "GET /mergerserver/opt HTTP/1.1" 200 13312
+[11/Feb/2018 11:56:40] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:56:42] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 11:56:48] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 11:55:54
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+================
+ost: 40002-70
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 14:57:26] "GET /openserver/opensvtask/list HTTP/1.1" 302 0
+[11/Feb/2018 14:57:26] "GET /accounts/login/?next=/openserver/opensvtask/list HTTP/1.1" 302 0
+[11/Feb/2018 14:57:27] "GET /user/logged?BabelTimeToken=fe95bd207a3810ba31469aa1e920b22b HTTP/1.1" 302 0
+[11/Feb/2018 14:57:27] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 14:57:32] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 14:57:32] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 11:57:03
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 'ServerIdInTask' object has no attribute 'serveridfortask_set'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 14:58:26] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 14:58:10
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+===============
+all: 'ServerIdInTask' object has no attribute 'serveridfortask_set'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:01:27] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:01:15
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 'unicode' object has no attribute 'all'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:02:24] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:01:41
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 40002-70
+all: 'unicode' object has no attribute 'all'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:03:14] "GET /openserver/opensvtask/list HTTP/1.1" 200 10531
+[11/Feb/2018 15:03:23] "GET /api/creategame/2 HTTP/1.1" 301 0
+[11/Feb/2018 15:03:23] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 15:03:23] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7015
+Performing system checks...
+
+February 11, 2018 - 15:02:36
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 10021-1
+'ServerIdInTask' object has no attribute 'serveridfortask_set'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:04:32] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:03:38
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 40002-70
+'ServerIdInTask' object has no attribute 'erverid'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:05:21] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:04:50
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 40002-70
+all: 40002-70
+'unicode' object has no attribute 'serverid'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:06:48] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:05:37
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+all: 40002-70
+i: 4
+i: 4
+'unicode' object has no attribute 'serverid'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:27:29] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 15:27:29] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 15:06:59
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'ServerIdInTask' object has no attribute 'gameproject'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:28:14] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:28:00
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+serverids: [('40002', '70')]
+'ServerIdInTask' object has no attribute 'gameproject'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:37:17] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:28:24
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+GameProject matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:38:15] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 15:38:15] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 15:37:55
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+GameProject matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:41:24] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:38:28
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 5
+GameProject matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:46:28] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:41:37
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTask matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:49:20] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 15:49:20] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 15:46:42
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'RunScript' object has no attribute 'OpenServerTask'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 15:53:08] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 15:49:45
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: sanguo  2018-02-06 18:19:31
+'RunScript' object has no attribute 'OpenServerTask'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:12:56] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 16:12:56] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 15:53:20
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: global name 'ost__gameproject_id' is not defined
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:18:30] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 16:13:20
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: sanguo  2018-02-06 18:19:31
+'RunScript' object has no attribute 'OpenServerTask'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:19:17] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 16:19:06
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: sanguo  2018-02-06 18:19:31
+ost1: [<OpenServerTask: sanguo  2018-02-06 18:19:31>]
+'RunScript' object has no attribute 'OpenServerTask'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:22:20] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 16:19:26
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 5
+ost: sanguo  2018-02-06 18:19:31
+ost1: [<OpenServerTask: sanguo  2018-02-06 18:19:31>]
+ost1: [<OpenServerTask: sanguo  2018-02-06 18:19:31>]
+'RunScript' object has no attribute 'OpenServerTask'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:36:25] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[11/Feb/2018 16:36:25] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7018
+Performing system checks...
+
+February 11, 2018 - 16:22:39
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 5
+ost: sanguo  2018-02-06 18:19:31
+'RunScript' object has no attribute 'OpenServerTask'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:37:22] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 16:36:46
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 5
+ost: sanguo  2018-02-06 18:19:31
+'RunScript' object has no attribute 'OpenServerTask'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:45:24] "GET /api/creategame/4 HTTP/1.1" 301 0
+[11/Feb/2018 16:45:24] "GET /api/creategame/4/ HTTP/1.1" 302 0
+[11/Feb/2018 16:45:24] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7019
+Performing system checks...
+
+February 11, 2018 - 16:45:19
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 4
+ost: sanguo  2018-02-05 11:50:37
+OpenServerTask matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 16:53:04] "GET /openserver/opt HTTP/1.1" 302 0
+[11/Feb/2018 16:53:04] "GET /accounts/login/?next=/openserver/opt HTTP/1.1" 302 0
+Internal Server Error: /user/logged
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pirate/django/GSMgr/userinfo/views.py", line 182, in logged_view
+    return b.isLogin(request, token)
+  File "/home/pirate/django/GSMgr/userinfo/views.py", line 109, in isLogin
+    user = self.get_or_create_user(username, "")
+  File "/home/pirate/django/GSMgr/userinfo/views.py", line 166, in get_or_create_user
+    user.save()
+  File "/home/pirate/django/GSMgr/userinfo/models.py", line 89, in save
+    return super(User, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/site-packages/django/db/utils.py", line 98, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry 'hantao@babeltime.com' for key 'email'")
+[11/Feb/2018 16:53:05] "GET /user/logged?BabelTimeToken=fe95bd207a3810ba31469aa1e920b22b HTTP/1.1" 500 157880
+Not Found: /favicon.ico
+[11/Feb/2018 16:53:06] "GET /favicon.ico HTTP/1.1" 404 2875
+[11/Feb/2018 16:54:52] "GET /user/logged?BabelTimeToken=fe95bd207a3810ba31469aa1e920b22b HTTP/1.1" 302 0
+[11/Feb/2018 16:54:52] "GET / HTTP/1.1" 200 6103
+[11/Feb/2018 16:54:54] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 16:54:55] "POST /api/getgameproj HTTP/1.1" 200 2
+[11/Feb/2018 16:54:57] "GET /mergerserver/opt HTTP/1.1" 200 13312
+[11/Feb/2018 16:54:58] "POST /api/getgameproj HTTP/1.1" 200 2
+[11/Feb/2018 16:55:00] "GET /openserver/hostproj/list HTTP/1.1" 200 6659
+[11/Feb/2018 16:55:04] "POST /api/getgameproj HTTP/1.1" 200 2
+[11/Feb/2018 16:55:09] "POST /api/getgameproj HTTP/1.1" 200 2
+[11/Feb/2018 16:55:15] "GET /openserver/hostproj/add HTTP/1.1" 200 7535
+[11/Feb/2018 16:55:32] "POST /openserver/hostproj/add HTTP/1.1" 302 0
+[11/Feb/2018 16:55:32] "GET /openserver/hostproj/detail/1 HTTP/1.1" 200 6052
+[11/Feb/2018 16:55:35] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 16:55:45] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 16:55:58] "POST /openserver/opt HTTP/1.1" 200 7
+[11/Feb/2018 16:55:58] "GET /openserver/opensvtask/list HTTP/1.1" 200 7183
+[11/Feb/2018 16:56:02] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 16:56:03] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 16:56:13] "GET /api/creategame/1 HTTP/1.1" 301 0
+[11/Feb/2018 16:56:13] "GET /api/creategame/1/ HTTP/1.1" 403 40
+[11/Feb/2018 16:57:20] "GET /openserver/opensvtask/list HTTP/1.1" 200 7183
+[11/Feb/2018 16:57:23] "GET /api/creategame/1/ HTTP/1.1" 302 0
+[11/Feb/2018 16:57:23] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7016
+Performing system checks...
+
+February 11, 2018 - 16:45:41
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 1
+ost: sanguo  2018-02-11 16:55:58
+gameproject_id: sanguo  2018-02-11 16:55:58
+gameproject_id: sanguo  2018-02-11 16:55:58
+serverids: [('40008', '70')]
+serverids: [('40008', '70')]
+1
+sanguo
+[('40008', '70')]
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:06:33] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7016
+[11/Feb/2018 17:06:37] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 17:06:38] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 17:06:45] "GET /openserver/opensvtask/list HTTP/1.1" 200 7183
+Performing system checks...
+
+February 11, 2018 - 16:57:41
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:15:51] "GET /api/creategame/1/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:15:37
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 1
+ost: <bound method Manager.all of <django.db.models.manager.Manager object at 0x2cfa390>>
+gameproject_id: sanguo  2018-02-11 16:55:58
+serverids: [('40008', '70')]
+serverids: [('40008', '70')]
+1
+sanguo
+[('40008', '70')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:16:31] "GET /api/creategame/1/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:16:06
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 1
+ost: [<OpenServerTask: sanguo  2018-02-11 16:55:58>]
+ost: [<OpenServerTask: sanguo  2018-02-11 16:55:58>]
+gameproject_id: sanguo  2018-02-11 16:55:58
+serverids: [('40008', '70')]
+serverids: [('40008', '70')]
+1
+sanguo
+[('40008', '70')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:20:31] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7016
+[11/Feb/2018 17:26:42] "GET /api/creategame/1/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:16:49
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+self.taskid: 1
+ost: [{'gameproject_id': 1L}]
+gameproject_id: sanguo  2018-02-11 16:55:58
+serverids: [('40008', '70')]
+serverids: [('40008', '70')]
+1
+sanguo
+[('40008', '70')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:30:59] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 17:31:09] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[11/Feb/2018 17:31:15] "POST /openserver/opt HTTP/1.1" 200 7
+[11/Feb/2018 17:31:15] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[11/Feb/2018 17:31:21] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+[11/Feb/2018 17:32:38] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:26:55
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+self.taskid: 2
+ost: [{'gameproject_id': 1L}, {'gameproject_id': 1L}]
+ost: [{'gameproject_id': 1L}, {'gameproject_id': 1L}]
+OpenServerTask matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:46:33] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 17:46:33] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 17:32:47
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: [u'70008', u'73']
+'OpenServerTask' object has no attribute 'values'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:46:56] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:46:51
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: [u'70008', u'73']
+s: [u'70008', u'73']
+'OpenServerTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:48:06] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:47:52
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: 70008-73
+s: [u'70008', u'73']
+s: [u'70008', u'73']
+'OpenServerTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:48:23] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:48:18
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost: 70008-73
+ost: 70008-73
+s: [u'70008', u'73']
+s: [u'70008', u'73']
+'OpenServerTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:50:17] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:49:59
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'ServerIdInTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:50:57] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 17:51:07] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:50:48
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'ServerIdInTask' object has no attribute 'values'
+'ServerIdInTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:52:35] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:51:23
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost:| [<ServerIdInTask: 70008-73>]
+ost:| [<ServerIdInTask: 70008-73>]
+'QuerySet' object has no attribute 'serverid'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 17:54:17] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 17:52:45
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+ost:| [<ServerIdInTask: 70008-73>, <ServerIdInTask: 70009-73>]
+'QuerySet' object has no attribute 'serverid'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:09:23] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 18:09:23] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 17:54:36
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'QuerySet' object is not callable
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:14:02] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:09:39
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'ServerIdInTask' object has no attribute 'split'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:14:57] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:14:17
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+i: 70008-73
+'ServerIdInTask' object has no attribute 'split'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:16:34] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:15:10
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+type(i): <class 'openserver.models.ServerIdInTask'>
+i: 70008-73
+i: 70008-73
+'ServerIdInTask' object has no attribute 'split'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:19:42] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 18:19:42] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 18:16:44
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+s: ['70008', '73']
+'OpenServerTask' object has no attribute 'values'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:20:05] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:20:01
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+'OpenServerTask' object has no attribute 'values'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:22:27] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:22:10
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+s: ['70009', '73']
+serverids: [('70008', '73'), ('70009', '73')]
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:42:21] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 18:42:21] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 18:22:39
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: [<OpenServerTask: sanguo  2018-02-11 17:31:15>]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:44:00] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:42:35
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: [{'gameproject_id': 1L}]
+gameproject_id: [{'gameproject_id': 1L}]
+gameproject_id: [{'gameproject_id': 1L}]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:45:11] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:44:14
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+too many values to unpack
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:45:56] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:45:24
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: [{'gameproject_id': 1L}]
+gameproject_id: [{'gameproject_id': 1L}]
+gameproject_id: [{'gameproject_id': 1L}]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:47:23] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:46:10
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:50:49] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:47:38
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:52:15] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:50:59
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: {'gameproject_id': 1L}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:53:16] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 18:53:16] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 18:52:24
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: 1
+gameproject_id: {'gameproject_id': 1L}
+int() argument must be a string or a number, not 'dict'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:54:20] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:53:27
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:55:24] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:54:40
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:56:00] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:55:33
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 18:56:52] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:56:11
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+'gameproject'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:02:39] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 18:57:03
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+int() argument must be a string or a number, not 'dict'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:03:22] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[11/Feb/2018 19:03:22] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 19:02:53
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: {'gameproject_id': 1L}
+int() argument must be a string or a number, not 'dict'
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:04:19] "GET /openserver/opt HTTP/1.1" 200 13218
+[11/Feb/2018 19:04:21] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 19:04:23] "POST /api/getgameproj HTTP/1.1" 200 28
+[11/Feb/2018 19:04:24] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[11/Feb/2018 19:04:27] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:03:34
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: 1
+gameproject_id: 1
+gameproject: [<GameProject: 三国>]
+gameproject: [<GameProject: 三国>]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:04:40] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:04:36
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: 1
+gameproject: [<GameProject: 三国>]
+gameproject: [<GameProject: 三国>]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:05:25] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:05:18
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+gameproject_id: 1
+gameproject: [{'codename': u'sanguo'}]
+gameproject: [{'codename': u'sanguo'}]
+s: ['70008', '73']
+s: ['70009', '73']
+global name 'ost_gameproject' is not defined
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:10:55] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:05:39
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+s: ['70009', '73']
+sanguo 'QuerySet' object has no attribute 'id'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:11:37] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:11:18
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+s: ['70008', '73']
+s: ['70009', '73']
+sanguo 'QuerySet' object has no attribute 'id'
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[11/Feb/2018 19:12:48] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 11, 2018 - 19:12:41
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+sanguo 2 sanguo [('70008', '73'), ('70009', '73')]
+2
+sanguo
+[('70008', '73'), (sanguo 2'70009', '73')] 
+sanguo [('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:30:57] "GET / HTTP/1.1" 302 0
+[12/Feb/2018 10:30:57] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[12/Feb/2018 10:31:02] "GET /user/logged?BabelTimeToken=0d15afa08efce6feb7777ab8dba74d2c HTTP/1.1" 302 0
+[12/Feb/2018 10:31:02] "GET / HTTP/1.1" 200 6103
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:02] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 304 0
+[12/Feb/2018 10:31:13] "GET /openserver/opt HTTP/1.1" 200 13218
+[12/Feb/2018 10:31:13] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:13] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:13] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:13] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:13] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 304 0
+[12/Feb/2018 10:31:14] "POST /api/getgameproj HTTP/1.1" 200 28
+[12/Feb/2018 10:31:16] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 10:31:16] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 304 0
+[12/Feb/2018 10:31:16] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:16] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[12/Feb/2018 10:31:17] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 304 0
+[12/Feb/2018 10:31:17] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 304 0
+[12/Feb/2018 10:34:18] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[12/Feb/2018 10:34:18] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 11, 2018 - 19:12:55
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+sanguo 2 sanguo [('70008', '73'), ('70009', '73')]
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:36:02] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:34:35
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+sanguo 2 sanguo [('70008', '73'), ('70009', '73')]
+sanguo 2 sanguo [('70008', '73'), ('70009', '73')]
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:36:49] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:36:20
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:37:49] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:37:13
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+2
+sanguo====================================
+
+[====================================
+('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:39:08] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:38:01
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:40:12] "POST /api/getgameproj HTTP/1.1" 200 28
+[12/Feb/2018 10:40:17] "GET /api/creategame/1/ HTTP/1.1" 302 0
+[12/Feb/2018 10:40:17] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7016
+Performing system checks...
+
+February 12, 2018 - 10:39:31
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:41:14] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:40:29
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 10:41:29] "GET /api/creategame/2/ HTTP/1.1" 302 0
+Performing system checks...
+
+February 12, 2018 - 10:41:25
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+2
+sanguo
+[('70008', '73'), ('70009', '73')]
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 11:35:56] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[12/Feb/2018 11:35:56] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+[12/Feb/2018 11:36:07] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+[12/Feb/2018 11:36:12] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+Performing system checks...
+
+February 12, 2018 - 10:42:58
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{'70008': {'status': 'success', 'tmpdb': 'tmp0129190554', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'8\u533a-\u53ec\u56de1\u670d', 'offset': 2700, 'wanport': 1008, 'lid': '70008', 'lanport': 2008, 'gameid': u'70008', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.2.199', 'sid': 8, 'iscallback': '', 'opendate': '20180201', 'mdbhost': '192.168.1.140'}, '70009': {'status': 'success', 'tmpdb': 'tmp0201174035', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'9\u533a-\u71d5\u4eba\u5486\u54ee', 'offset': 0, 'wanport': 1009, 'lid': '70009', 'lanport': 2009, 'gameid': u'70009', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.2.199', 'sid': 9, 'iscallback': '', 'opendate': '20180206', 'mdbhost': '192.168.1.140'}}
+rename_db
+gen_args
+gen_gsc
+copy_args
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+<type 'bool'>
+True
+rename_db
+gen_args
+gen_gsc
+copy_args
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+<type 'bool'>
+True
+start_game
+init_game
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+check_game
+HTTP Error 500: Internal Server Error
+start_game
+init_game
+check_game
+HTTP Error 500: Internal Server Error
+HTTP Error 404: Not Found
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[12/Feb/2018 11:37:02] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 11:37:09] "GET /openserver/opt HTTP/1.1" 200 13218
+[12/Feb/2018 11:37:10] "POST /api/getgameproj HTTP/1.1" 200 28
+[12/Feb/2018 11:52:33] "GET /openserver/opt HTTP/1.1" 200 13218
+[12/Feb/2018 11:52:34] "POST /api/getgameproj HTTP/1.1" 200 28
+[12/Feb/2018 11:52:49] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 13:52:22] "GET /api/creategame/2/ HTTP/1.1" 403 40
+Not Found: /favicon.ico
+[12/Feb/2018 13:52:22] "GET /favicon.ico HTTP/1.1" 404 2875
+[12/Feb/2018 13:52:24] "GET /openserver/opensvtask/list HTTP/1.1" 302 0
+[12/Feb/2018 13:52:24] "GET /accounts/login/?next=/openserver/opensvtask/list HTTP/1.1" 302 0
+[12/Feb/2018 13:52:25] "GET /user/logged?BabelTimeToken=0d15afa08efce6feb7777ab8dba74d2c HTTP/1.1" 302 0
+[12/Feb/2018 13:52:25] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 13:52:28] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 13:52:34] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[12/Feb/2018 13:52:35] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[12/Feb/2018 13:52:37] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[12/Feb/2018 13:52:37] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+[12/Feb/2018 15:46:49] "GET /mergerserver/opt HTTP/1.1" 200 13312
+[12/Feb/2018 15:46:50] "POST /api/getgameproj HTTP/1.1" 200 28
+[12/Feb/2018 15:46:50] "GET /openserver/opt HTTP/1.1" 200 13218
+[12/Feb/2018 15:46:51] "POST /api/getgameproj HTTP/1.1" 200 28
+Performing system checks...
+
+February 12, 2018 - 11:36:51
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{'70008': {'status': 'success', 'tmpdb': 'tmp0201175104', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'8\u533a-\u53ec\u56de1\u670d', 'offset': 900, 'wanport': 1008, 'lid': '70008', 'lanport': 2008, 'gameid': u'70008', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 8, 'iscallback': '', 'opendate': '20180201', 'mdbhost': '192.168.1.140'}, '70009': {'status': 'success', 'tmpdb': 'tmp0201175812', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'9\u533a-\u71d5\u4eba\u5486\u54ee', 'offset': 1800, 'wanport': 1009, 'lid': '70009', 'lanport': 2009, 'gameid': u'70009', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 9, 'iscallback': '', 'opendate': '20180206', 'mdbhost': '192.168.1.140'}}
+rename_db
+rename_db
+HTTP Error 500: Internal Server Error
+HTTP Error 500: Internal Server Error
+HTTP Error 404: Not Found
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[13/Feb/2018 10:53:46] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[13/Feb/2018 10:53:57] "POST /api/getgameinfo HTTP/1.1" 200 2087
+[22/Feb/2018 14:01:38] "GET / HTTP/1.1" 302 0
+[22/Feb/2018 14:01:38] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[22/Feb/2018 14:01:39] "GET / HTTP/1.1" 302 0
+[22/Feb/2018 14:01:39] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[22/Feb/2018 14:01:43] "GET /user/logged?BabelTimeToken=b39949daf0c9f60a81cdcf566777999c HTTP/1.1" 302 0
+[22/Feb/2018 14:01:43] "GET / HTTP/1.1" 200 6103
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[22/Feb/2018 14:01:43] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[22/Feb/2018 14:01:44] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[22/Feb/2018 14:01:45] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 14:01:45] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:45] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:45] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[22/Feb/2018 14:01:45] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 304 0
+[22/Feb/2018 14:01:46] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 304 0
+[22/Feb/2018 14:01:46] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:01:50] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 23292
+[22/Feb/2018 14:02:00] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 14:02:03] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[22/Feb/2018 14:02:03] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 304 0
+[22/Feb/2018 14:02:03] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[22/Feb/2018 14:02:03] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[22/Feb/2018 14:02:03] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 304 0
+[22/Feb/2018 14:02:03] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 304 0
+[22/Feb/2018 14:02:17] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[22/Feb/2018 14:02:17] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7202
+[22/Feb/2018 14:05:21] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:05:25] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:05:33] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 14:05:43] "POST /openserver/opt HTTP/1.1" 200 29
+[22/Feb/2018 14:05:55] "POST /openserver/opt HTTP/1.1" 200 29
+[22/Feb/2018 14:06:05] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[22/Feb/2018 14:06:05] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[22/Feb/2018 14:06:10] "GET /openserver/opensvtask/list HTTP/1.1" 200 8021
+[22/Feb/2018 14:06:18] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7016
+[22/Feb/2018 14:06:22] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 14:06:23] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:06:30] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:06:33] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 14:06:38] "POST /openserver/opt HTTP/1.1" 200 7
+[22/Feb/2018 14:06:45] "GET /openserver/opensvtask/list HTTP/1.1" 200 8859
+[22/Feb/2018 14:07:13] "GET /api/creategame/5/ HTTP/1.1" 302 0
+[22/Feb/2018 14:07:13] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7016
+Exception in thread Thread-91:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 592, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 285, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '40400'
+
+[22/Feb/2018 14:07:48] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7016
+[22/Feb/2018 14:08:05] "GET /api/creategame/5/ HTTP/1.1" 302 0
+Exception in thread Thread-108:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 592, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 285, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '40400'
+
+[22/Feb/2018 14:10:21] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 14:10:22] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 14:10:55] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 14:11:03] "POST /openserver/opt HTTP/1.1" 200 7
+[22/Feb/2018 14:11:07] "GET /openserver/opensvtask/list HTTP/1.1" 200 9697
+[22/Feb/2018 14:11:21] "GET /api/creategame/6 HTTP/1.1" 301 0
+[22/Feb/2018 14:11:21] "GET /api/creategame/6/ HTTP/1.1" 302 0
+[22/Feb/2018 14:11:21] "GET /openserver/opensvtask/detail/6 HTTP/1.1" 200 7016
+[22/Feb/2018 14:11:57] "GET /openserver/opensvtask/detail/6 HTTP/1.1" 200 7016
+Performing system checks...
+
+February 12, 2018 - 15:47:54
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{'70008': {'status': 'success', 'tmpdb': 'tmp0201175104', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'8\u533a-\u53ec\u56de1\u670d', 'offset': 2700, 'wanport': 1008, 'lid': '70008', 'lanport': 2008, 'gameid': u'70008', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 8, 'iscallback': '', 'opendate': '20180201', 'mdbhost': '192.168.1.140'}, '70009': {'status': 'success', 'tmpdb': 'tmp0201175812', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'9\u533a-\u71d5\u4eba\u5486\u54ee', 'offset': 0, 'wanport': 1009, 'lid': '70009', 'lanport': 2009, 'gameid': u'70009', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 9, 'iscallback': '', 'opendate': '20180206', 'mdbhost': '192.168.1.140'}}
+rename_db
+rename_db
+HTTP Error 500: Internal Server Error
+HTTP Error 500: Internal Server Error
+HTTP Error 404: Not Found
+Error openServerRecord.recordinfo  (1062, "Duplicate entry '40008-70' for key 'serverid'")
+Error openServerRecord.recordinfo  (1062, "Duplicate entry '40008-70' for key 'serverid'")
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+{'70011': {'status': 'success', 'tmpdb': 'tmp0201175104', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'11\u533a-\u72ec\u773c\u7f57\u5239', 'offset': 900, 'wanport': 1011, 'lid': '70011', 'lanport': 2011, 'gameid': u'70011', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 11, 'iscallback': '', 'opendate': '20180220', 'mdbhost': '192.168.1.140'}}
+rename_db
+gen_args
+gen_gsc
+copy_args
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+<type 'bool'>
+True
+start_game
+init_game
+check_game
+HTTP Error 500: Internal Server Error
+HTTP Error 404: Not Found
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 15:59:30] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 15:59:31] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 15:59:34] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 15:59:45] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 15:59:51] "POST /openserver/opt HTTP/1.1" 200 7
+[22/Feb/2018 15:59:51] "GET /openserver/opensvtask/list HTTP/1.1" 200 10535
+[22/Feb/2018 15:59:58] "GET /openserver/opensvtask/list HTTP/1.1" 200 10535
+[22/Feb/2018 16:00:02] "GET /openserver/opensvtask/detail/7 HTTP/1.1" 200 7016
+[22/Feb/2018 16:00:11] "GET /api/creategame/7 HTTP/1.1" 301 0
+[22/Feb/2018 16:00:11] "GET /api/creategame/7/ HTTP/1.1" 302 0
+[22/Feb/2018 16:02:19] "GET /openserver/opensvtask/detail/7 HTTP/1.1" 200 7016
+[22/Feb/2018 16:02:26] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 16:02:27] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:24:37] "GET /openserver/opensvtask/detail/7 HTTP/1.1" 200 7016
+[22/Feb/2018 16:24:57] "GET /openserver/hostproj/list HTTP/1.1" 200 7303
+Performing system checks...
+
+February 22, 2018 - 15:58:47
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+{'70010': {'status': 'success', 'tmpdb': 'tmp0201175812', 'opentime': '100000', 'groupbase': '70000', 'failoutput': '', 'servername': u'10\u533a-\u9686\u4e2d\u5b9a\u7b56', 'offset': 900, 'wanport': 1010, 'lid': '70010', 'lanport': 2010, 'gameid': u'70010', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.2.199', 'sid': 10, 'iscallback': '', 'opendate': '20180213', 'mdbhost': '192.168.1.140'}}
+rename_db
+gen_args
+gen_gsc
+copy_args
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+<type 'bool'>
+True
+start_game
+init_game
+check_game
+HTTP Error 500: Internal Server Error
+url: http://192.168.1.144:8000/api/settaskstatus
+values: {'status': 4, 'execoutput': 'success', 'taskid': u'7'}
+data: status=4&execoutput=success&taskid=7
+req: <urllib2.Request instance at 0x7fbe84218c20>
+HTTP Error 404: Not Found
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:32:38] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 16:32:39] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:32:50] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 16:33:10] "POST /openserver/opt HTTP/1.1" 200 7
+[22/Feb/2018 16:33:10] "GET /openserver/opensvtask/list HTTP/1.1" 200 11373
+[22/Feb/2018 16:33:25] "GET /api/creategame/8 HTTP/1.1" 301 0
+[22/Feb/2018 16:33:25] "GET /api/creategame/8/ HTTP/1.1" 302 0
+[22/Feb/2018 16:33:25] "GET /openserver/opensvtask/detail/8 HTTP/1.1" 200 7016
+Exception in thread Thread-9:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 592, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 285, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '40000'
+
+[22/Feb/2018 16:33:40] "GET /openserver/opt HTTP/1.1" 200 13218
+[22/Feb/2018 16:33:41] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:33:46] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:33:56] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:34:02] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:34:13] "POST /api/getgameinfo HTTP/1.1" 200 2241
+[22/Feb/2018 16:34:23] "POST /openserver/opt HTTP/1.1" 200 7
+[22/Feb/2018 16:34:28] "GET /openserver/opensvtask/list HTTP/1.1" 200 12211
+[22/Feb/2018 16:34:35] "GET /api/creategame/9/ HTTP/1.1" 302 0
+[22/Feb/2018 16:34:35] "GET /openserver/opensvtask/detail/9 HTTP/1.1" 200 7016
+Exception in thread Thread-30:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 592, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 285, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+Performing system checks...
+
+February 22, 2018 - 16:32:15
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:37:36] "GET / HTTP/1.1" 302 0
+[22/Feb/2018 16:37:36] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[22/Feb/2018 16:37:40] "GET /api/creategame/9/ HTTP/1.1" 302 0
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 593, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 286, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+[22/Feb/2018 16:37:43] "GET /user/logged?BabelTimeToken=09deb0da45f100e737e5d1ff7cbf7e3c HTTP/1.1" 302 0
+[22/Feb/2018 16:37:43] "GET / HTTP/1.1" 200 6109
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 200 117305
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 200 11860
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 200 21577
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 200 443
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 200 35951
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1386
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 200 10125
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90647
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 200 9066
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 200 67203
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 200 14817
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 200 6635
+[22/Feb/2018 16:37:43] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[22/Feb/2018 16:37:44] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[22/Feb/2018 16:37:46] "GET /openserver/serverinfo/list HTTP/1.1" 200 10158
+[22/Feb/2018 16:37:46] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 200 5178
+[22/Feb/2018 16:37:46] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 200 9614
+[22/Feb/2018 16:37:46] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 200 423608
+[22/Feb/2018 16:37:48] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[22/Feb/2018 16:37:51] "GET /openserver/opt HTTP/1.1" 200 13221
+[22/Feb/2018 16:37:51] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11276
+[22/Feb/2018 16:37:51] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 200 852
+[22/Feb/2018 16:37:51] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 733
+[22/Feb/2018 16:37:51] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 200 70107
+[22/Feb/2018 16:37:51] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+[22/Feb/2018 16:37:52] "POST /api/getgameproj HTTP/1.1" 200 28
+[22/Feb/2018 16:37:54] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 23292
+[22/Feb/2018 16:38:06] "POST /api/getgameinfo HTTP/1.1" 200 2
+[22/Feb/2018 16:38:24] "POST /api/getgameinfo HTTP/1.1" 200 154
+Performing system checks...
+
+February 22, 2018 - 16:37:29
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+gm: {u'Status': 1, u'lid': 59, u'dbuser': u'rd', u'assetPath': u'http://static.zuiyouxi.com/game/20120730/assets/', u'name': u'\u8de8\u670d\u6218-3\u670d', u'dbport': 3306, u'url': u'http://static.zuiyouxi.com/game/index.html', u'dbpw': u'admin', u'dbhost': u'127.0.0.1', u'mtime': 1415867849, u'dbname': u'pirate001', u'id': 230, u'port': 0, u'host': u'', u'openDateTime': 1516672800, u'sid': 403, u'ifshow': 1, u'Path': u'http://static.zuiyouxi.com/game/20120730/', u'groupbase': 30000, u'groupid': u'30403', u'mergeServerTime': 0}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:40:05] "GET /api/creategame/9/ HTTP/1.1" 302 0
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 593, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 286, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+Performing system checks...
+
+February 22, 2018 - 16:39:55
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+gm: {u'Status': 1, u'lid': 59, u'dbuser': u'rd', u'assetPath': u'http://static.zuiyouxi.com/game/20120730/assets/', u'name': u'\u8de8\u670d\u6218-3\u670d', u'dbport': 3306, u'url': u'http://static.zuiyouxi.com/game/index.html', u'dbpw': u'admin', u'dbhost': u'127.0.0.1', u'mtime': 1415867849, u'dbname': u'pirate001', u'id': 230, u'port': 0, u'host': u'', u'openDateTime': 1516672800, u'sid': 403, u'ifshow': 1, u'Path': u'http://static.zuiyouxi.com/game/20120730/', u'groupbase': 30000, u'groupid': u'30403', u'mergeServerTime': 0}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:43:23] "GET /api/creategame/9/ HTTP/1.1" 302 0
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 593, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 286, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+Performing system checks...
+
+February 22, 2018 - 16:43:14
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+gm: {u'Status': 1, u'lid': 59, u'dbuser': u'rd', u'assetPath': u'http://static.zuiyouxi.com/game/20120730/assets/', u'name': u'\u8de8\u670d\u6218-3\u670d', u'dbport': 3306, u'url': u'http://static.zuiyouxi.com/game/index.html', u'dbpw': u'admin', u'dbhost': u'127.0.0.1', u'mtime': 1415867849, u'dbname': u'pirate001', u'id': 230, u'port': 0, u'host': u'', u'openDateTime': 1516672800, u'sid': 403, u'ifshow': 1, u'Path': u'http://static.zuiyouxi.com/game/20120730/', u'groupbase': 30000, u'groupid': u'30403', u'mergeServerTime': 0}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:44:29] "GET /api/creategame/9/ HTTP/1.1" 302 0
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 594, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 287, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+Performing system checks...
+
+February 22, 2018 - 16:44:21
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+url: http://192.168.1.38/stat/getserverinfo/getInfoByOneServer?lid=59&tm=1519289069&groupid=30403&sign=9d99da04ff6d76687a7caf6922ffabfe
+gm: {u'Status': 1, u'lid': 59, u'dbuser': u'rd', u'assetPath': u'http://static.zuiyouxi.com/game/20120730/assets/', u'name': u'\u8de8\u670d\u6218-3\u670d', u'dbport': 3306, u'url': u'http://static.zuiyouxi.com/game/index.html', u'dbpw': u'admin', u'dbhost': u'127.0.0.1', u'mtime': 1415867849, u'dbname': u'pirate001', u'id': 230, u'port': 0, u'host': u'', u'openDateTime': 1516672800, u'sid': 403, u'ifshow': 1, u'Path': u'http://static.zuiyouxi.com/game/20120730/', u'groupbase': 30000, u'groupid': u'30403', u'mergeServerTime': 0}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:46:50] "GET /api/creategame/9/ HTTP/1.1" 302 0
+[22/Feb/2018 16:46:50] "GET /openserver/opensvtask/detail/9 HTTP/1.1" 200 7016
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 595, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 287, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+Performing system checks...
+
+February 22, 2018 - 16:46:41
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+=========================test===================================
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+url: http://192.168.1.38/stat/getserverinfo/getInfoByOneServer?lid=59&tm=1519289211&groupid=30403&sign=8a5b11940420c36ea0117cd81d8565ce
+gm: {u'Status': 1, u'lid': 59, u'dbuser': u'rd', u'assetPath': u'http://static.zuiyouxi.com/game/20120730/assets/', u'name': u'\u8de8\u670d\u6218-3\u670d', u'dbport': 3306, u'url': u'http://static.zuiyouxi.com/game/index.html', u'dbpw': u'admin', u'dbhost': u'127.0.0.1', u'mtime': 1415867849, u'dbname': u'pirate001', u'id': 230, u'port': 0, u'host': u'', u'openDateTime': 1516672800, u'sid': 403, u'ifshow': 1, u'Path': u'http://static.zuiyouxi.com/game/20120730/', u'groupbase': 30000, u'groupid': u'30403', u'mergeServerTime': 0}
+game_info: {'gameid': u'30403', 'servername': u'\u8de8\u670d\u6218-3\u670d', 'opentime': '100000', 'sid': 403, 'iscallback': '', 'opendate': '20180123'}
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[22/Feb/2018 16:54:04] "GET /api/creategame/9/ HTTP/1.1" 302 0
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "/home/pirate/django/GSMgr/backend/scripts/CreateRun.py", line 27, in run
+    cga.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/Adapter.py", line 15, in before
+    self.func.before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/regist/CreateGameSanguo.py", line 44, in before
+    print self.cpp_before()
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 596, in cpp_before
+    wanport = self.get_wanport(game_info['sid'], serverid)
+  File "/home/pirate/django/GSMgr/backend/module/creategame/frame/CPPFramework.py", line 287, in get_wanport
+    wanport = int(sid) + int(self.sanguo_base_config[self.get_groupbase(serverid[0])]["WanBasePort"])
+KeyError: '30400'
+
+System check identified some issues:
+
+WARNINGS:
+?: (1_8.W001) The standalone TEMPLATE_* settings were deprecated in Django 1.8 and the TEMPLATES dictionary takes precedence. You must put the values of the following settings into your default TEMPLATES dict: TEMPLATE_DEBUG.
+
+System check identified 1 issue (0 silenced).
+[28/Feb/2018 18:09:36] "GET / HTTP/1.1" 302 0
+[28/Feb/2018 18:09:36] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[28/Feb/2018 18:09:38] "GET /user/logged?BabelTimeToken=2d2b54ff434dfda31cf7059af2382aa7 HTTP/1.1" 302 0
+[28/Feb/2018 18:09:38] "GET / HTTP/1.1" 200 6109
+[28/Feb/2018 18:09:42] "GET /openserver/opt HTTP/1.1" 200 13221
+[28/Feb/2018 18:09:42] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:09:43] "GET /openserver/opensvtask/list HTTP/1.1" 200 6407
+[28/Feb/2018 18:09:45] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:09:55] "POST /api/getgameinfo HTTP/1.1" 200 3568
+[28/Feb/2018 18:10:17] "POST /openserver/opt HTTP/1.1" 200 18
+[28/Feb/2018 18:11:04] "GET /openserver/opt HTTP/1.1" 200 13221
+[28/Feb/2018 18:11:05] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:11:05] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[28/Feb/2018 18:11:07] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:11:19] "POST /api/getgameinfo HTTP/1.1" 200 3568
+[28/Feb/2018 18:11:30] "POST /openserver/opt HTTP/1.1" 200 7
+[28/Feb/2018 18:11:33] "GET /openserver/opensvtask/list HTTP/1.1" 200 7186
+[28/Feb/2018 18:11:33] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[28/Feb/2018 18:11:35] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7022
+[28/Feb/2018 18:11:42] "GET /api/creategame/1/ HTTP/1.1" 302 0
+[28/Feb/2018 18:11:51] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[28/Feb/2018 18:11:55] "GET /openserver/opensvtask/detail/1 HTTP/1.1" 200 7026
+[28/Feb/2018 18:11:55] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[28/Feb/2018 18:12:40] "GET /openserver/opt HTTP/1.1" 200 13221
+[28/Feb/2018 18:12:41] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:12:43] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:12:53] "POST /api/getgameinfo HTTP/1.1" 200 3568
+[28/Feb/2018 18:20:18] "POST /openserver/opt HTTP/1.1" 200 7
+[28/Feb/2018 18:20:22] "GET /api/creategame/1/ HTTP/1.1" 302 0
+[28/Feb/2018 18:20:23] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[28/Feb/2018 18:20:29] "GET /openserver/opensvtask/list HTTP/1.1" 200 7778
+[28/Feb/2018 18:20:29] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[28/Feb/2018 18:20:41] "GET /openserver/opt HTTP/1.1" 200 13221
+[28/Feb/2018 18:20:41] "POST /api/getgameproj HTTP/1.1" 200 28
+[28/Feb/2018 18:20:50] "POST /api/getgameinfo HTTP/1.1" 200 3568
+[28/Feb/2018 18:21:00] "POST /openserver/opt HTTP/1.1" 200 7
+[28/Feb/2018 18:21:05] "GET /openserver/opensvtask/list HTTP/1.1" 200 8616
+[28/Feb/2018 18:21:05] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[28/Feb/2018 18:21:09] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7022
+[28/Feb/2018 18:21:23] "GET /api/creategame/2 HTTP/1.1" 301 0
+[28/Feb/2018 18:21:23] "GET /api/creategame/2/ HTTP/1.1" 302 0
+[28/Feb/2018 18:21:25] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7022
+[28/Feb/2018 18:21:25] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+Performing system checks...
+
+February 28, 2018 - 18:09:18
+Django version 1.8.16, using settings 'conf.settings.local'
+Starting development server at http://192.168.2.93:10000/
+Quit the server with CONTROL-C.
+---------------------------------
+---------------------------------
+{u'info': [{u'status': 1, u'strSid': u'S5+S6', u'merge_time': 1512466248, u'isshow': 1, u'groupbase': 70000, u'create_time': 1512380045, u'str_merge_server': u'70005,70006', u'id': 4}], u'code': 1}
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+SdbHostList: {'test.sanguo.db': ['192.168.1.145', '192.168.2.23']}
+serverid: ('30010', '59')
+game_info: {'gameid': u'30010', 'servername': u'\u6797\u6770\u946b--10\u670d', 'opentime': '000000', 'sid': 10, 'iscallback': '', 'opendate': '20160516'}
+get_groupbase: 30000
+{'30010': {'status': 'success', 'tmpdb': 'tmp0227154713', 'opentime': '000000', 'groupbase': '30000', 'failoutput': '', 'servername': u'\u6797\u6770\u946b--10\u670d', 'offset': 0, 'wanport': 1010, 'lid': '30010', 'lanport': 2010, 'gameid': u'30010', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 10, 'iscallback': '', 'opendate': '20160516', 'mdbhost': '192.168.1.140'}}
+rename_db
+gen_args
+gen_gsc
+copy_args
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+<type 'bool'>
+True
+start_game
+init_game
+check_game
+HTTP Error 500: Internal Server Error
+status: 0
+url: http://192.168.2.93:10000/api/opensv/settaskstatus
+values: {'status': 4, 'execoutput': 'success', 'taskid': u'1'}
+data: status=4&execoutput=success&taskid=1
+req: <urllib2.Request instance at 0x7fe6d43f1e18>
+response: <addinfourl at 140628707857256 whose fp = <socket._fileobject object at 0x7fe6ac1f0f50>>
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+SdbHostList: {'test.sanguo.db': ['192.168.1.145', '192.168.2.23']}
+serverid: ('30010', '59')
+game_info: {'gameid': u'30010', 'servername': u'\u6797\u6770\u946b--10\u670d', 'opentime': '000000', 'sid': 10, 'iscallback': '', 'opendate': '20160516'}
+get_groupbase: 30000
+{'30010': {'status': 'success', 'tmpdb': 'tmp0227154735', 'opentime': '000000', 'groupbase': '30000', 'failoutput': '', 'servername': u'\u6797\u6770\u946b--10\u670d', 'offset': 900, 'wanport': 1010, 'lid': '30010', 'lanport': 2010, 'gameid': u'30010', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 10, 'iscallback': '', 'opendate': '20160516', 'mdbhost': '192.168.1.140'}}
+rename_db
+HTTP Error 500: Internal Server Error
+status: 1
+url: http://192.168.2.93:10000/api/opensv/settaskstatus
+values: {'status': 3, 'execoutput': '[30010]', 'taskid': u'1'}
+data: status=3&execoutput=%5B30010%5D&taskid=1
+req: <urllib2.Request instance at 0x7fe6d464e4d0>
+response: <addinfourl at 140628707793520 whose fp = <socket._fileobject object at 0x7fe6d46581d0>>
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+=========================test===================================
+SdbHostList: {'test.sanguo.db': ['192.168.1.145', '192.168.2.23']}
+serverid: ('30008', '59')
+game_info: {'gameid': u'30008', 'servername': u'\u90d1\u56fd\u6d69-8\u670d', 'opentime': '100000', 'sid': 8, 'iscallback': '', 'opendate': '20170311'}
+get_groupbase: 30000
+{'30008': {'status': 'success', 'tmpdb': 'tmp0227154735', 'opentime': '100000', 'groupbase': '30000', 'failoutput': '', 'servername': u'\u90d1\u56fd\u6d69-8\u670d', 'offset': 1800, 'wanport': 1008, 'lid': '30008', 'lanport': 2008, 'gameid': u'30008', 'sdbhost': '192.168.1.145', 'mainhost': '192.168.1.140', 'sid': 8, 'iscallback': '', 'opendate': '20170311', 'mdbhost': '192.168.1.140'}}
+rename_db
+gen_args
+gen_gsc
+copy_args
+OpenServerTaskDetail Warning ServerInfomation matching query does not exist.
+copy_gsc
+init_dataproxy
+{'test.sanguo.logic.phpproxy': ['192.168.1.145', '192.168.2.23']}
+copy_gsc_to_logic
+{'test.san[28/Feb/2018 18:21:32] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[28/Feb/2018 18:21:48] "GET /openserver/opensvtask/detail/2 HTTP/1.1" 200 7026
+[28/Feb/2018 18:21:48] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[01/Mar/2018 10:51:06] "GET /openserver/opensvtask/list HTTP/1.1" 302 0
+[01/Mar/2018 10:51:06] "GET /accounts/login/?next=/openserver/opensvtask/list HTTP/1.1" 302 0
+[01/Mar/2018 10:51:14] "GET /user/logged?BabelTimeToken=aa3d6e588abb6123b926bca19f01c693 HTTP/1.1" 302 0
+[01/Mar/2018 10:51:14] "GET /openserver/opensvtask/list HTTP/1.1" 200 8367
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:14] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:15] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 304 0
+[01/Mar/2018 10:51:15] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 304 0
+[01/Mar/2018 10:51:15] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 304 0
+[01/Mar/2018 10:51:21] "GET /openserver/opensvtask/list HTTP/1.1" 200 8367
+[01/Mar/2018 10:51:25] "GET /openserver/opensvtask/list HTTP/1.1" 200 8367
+[01/Mar/2018 10:51:26] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[01/Mar/2018 10:51:29] "GET /openserver/opt HTTP/1.1" 200 13218
+[01/Mar/2018 10:51:29] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:29] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[01/Mar/2018 10:51:29] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:29] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 304 0
+[01/Mar/2018 10:51:29] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 304 0
+[01/Mar/2018 10:51:29] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:36] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:38] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:41] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:43] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:45] "GET /openserver/serverinfo/list HTTP/1.1" 200 10155
+[01/Mar/2018 10:51:48] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:51:55] "GET /openserver/opensvtask/detail/3 HTTP/1.1" 200 7019
+[01/Mar/2018 10:52:02] "GET /api/creategame/3 HTTP/1.1" 301 0
+[01/Mar/2018 10:52:02] "GET /api/creategame/3/ HTTP/1.1" 302 0
+[01/Mar/2018 10:52:06] "GET /openserver/opensvtask/detail/3 HTTP/1.1" 200 7019
+[01/Mar/2018 10:52:07] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[01/Mar/2018 10:52:08] "GET /openserver/opensvtask/detail/3 HTTP/1.1" 200 7019
+[01/Mar/2018 10:52:09] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[01/Mar/2018 10:52:11] "GET /openserver/opensvtask/detail/3 HTTP/1.1" 200 7019
+[01/Mar/2018 10:52:11] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[01/Mar/2018 10:52:11] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[01/Mar/2018 10:52:15] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:52:31] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[01/Mar/2018 10:52:38] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 10:52:44] "GET /openserver/opensvtask/list HTTP/1.1" 200 8122
+[01/Mar/2018 10:52:59] "GET /openserver/opensvtask/detail/3 HTTP/1.1" 200 7024
+[01/Mar/2018 10:53:03] "POST /api/getgameproj HTTP/1.1" 200 28
+[01/Mar/2018 11:28:26] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[09/Mar/2018 15:23:56] "GET / HTTP/1.1" 302 0
+[09/Mar/2018 15:23:56] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[09/Mar/2018 15:23:56] "GET / HTTP/1.1" 302 0
+[09/Mar/2018 15:23:56] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[09/Mar/2018 15:24:05] "GET /user/logged?BabelTimeToken=f86decb83614c4e3911da0b1f583db5d HTTP/1.1" 302 0
+[09/Mar/2018 15:24:05] "GET / HTTP/1.1" 200 6109
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 200 35951
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1386
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 200 9066
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 200 67203
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90647
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 200 14817
+[09/Mar/2018 15:24:05] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 200 6635
+[09/Mar/2018 15:24:05] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 15:24:07] "GET /openserver/opt HTTP/1.1" 200 13221
+[09/Mar/2018 15:24:07] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:07] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 733
+[09/Mar/2018 15:24:07] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:07] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 200 70107
+[09/Mar/2018 15:24:07] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+[09/Mar/2018 15:24:07] "POST /api/getgameproj HTTP/1.1" 200 28
+[09/Mar/2018 15:24:09] "GET /mergerserver/opt HTTP/1.1" 200 13315
+[09/Mar/2018 15:24:09] "POST /api/getgameproj HTTP/1.1" 200 28
+[09/Mar/2018 15:24:12] "GET /openserver/hostproj/list HTTP/1.1" 200 7306
+[09/Mar/2018 15:24:12] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 304 0
+[09/Mar/2018 15:24:12] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[09/Mar/2018 15:24:12] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[09/Mar/2018 15:24:12] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 304 0
+[09/Mar/2018 15:24:12] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 304 0
+[09/Mar/2018 15:24:14] "POST /api/getgameproj HTTP/1.1" 200 28
+[09/Mar/2018 15:24:15] "GET /static/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 23292
+[09/Mar/2018 15:24:57] "POST /api/getgameinfo HTTP/1.1" 200 2393
+[09/Mar/2018 16:02:23] "POST /openserver/opt HTTP/1.1" 200 7
+[09/Mar/2018 16:02:24] "GET /openserver/opensvtask/list HTTP/1.1" 200 8963
+[09/Mar/2018 16:02:28] "GET /openserver/opensvtask/list HTTP/1.1" 200 8963
+[09/Mar/2018 16:02:28] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 16:02:33] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7022
+[09/Mar/2018 16:02:39] "GET /api/creategame/4 HTTP/1.1" 301 0
+[09/Mar/2018 16:02:39] "GET /api/creategame/4/ HTTP/1.1" 302 0
+[09/Mar/2018 16:02:43] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7022
+[09/Mar/2018 16:02:44] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 16:02:46] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7022
+[09/Mar/2018 16:02:46] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 16:02:47] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7022
+[09/Mar/2018 16:02:47] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 16:02:49] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[09/Mar/2018 16:02:52] "GET /openserver/opt HTTP/1.1" 200 13221
+[09/Mar/2018 16:02:53] "POST /api/getgameproj HTTP/1.1" 200 28
+[09/Mar/2018 16:02:55] "GET /openserver/opensvtask/list HTTP/1.1" 200 8717
+[09/Mar/2018 16:02:56] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[09/Mar/2018 16:25:57] "GET /openserver/opensvtask/detail/4 HTTP/1.1" 200 7026
+[13/Mar/2018 14:06:00] "GET / HTTP/1.1" 302 0
+[13/Mar/2018 14:06:00] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[13/Mar/2018 14:14:24] "GET / HTTP/1.1" 302 0
+[13/Mar/2018 14:14:24] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[16/Mar/2018 11:24:15] "GET / HTTP/1.1" 302 0
+[16/Mar/2018 11:24:15] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[16/Mar/2018 11:24:15] "GET /user/logged?BabelTimeToken=489c7935d9d4832c39b4e32687eb4df2 HTTP/1.1" 302 0
+[16/Mar/2018 11:24:15] "GET / HTTP/1.1" 200 6109
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1386
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 200 35951
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 200 67203
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90647
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 200 9066
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 200 6635
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 200 14817
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:15] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:39] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[16/Mar/2018 11:24:42] "GET /openserver/opt HTTP/1.1" 200 13221
+[16/Mar/2018 11:24:42] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:42] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:42] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 200 70107
+[16/Mar/2018 11:24:42] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 733
+[16/Mar/2018 11:24:42] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+[16/Mar/2018 11:24:42] "POST /api/getgameproj HTTP/1.1" 200 28
+[16/Mar/2018 11:24:43] "GET /openserver/serverinfo/list HTTP/1.1" 200 10158
+[16/Mar/2018 11:24:43] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 304 0
+[16/Mar/2018 11:24:43] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 304 0
+[16/Mar/2018 11:24:43] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 304 0
+[16/Mar/2018 11:24:45] "POST /api/getgameproj HTTP/1.1" 200 28
+[16/Mar/2018 14:41:39] "POST /api/opensv/settaskstatus HTTP/1.1" 200 9
+[16/Mar/2018 14:46:31] "GET / HTTP/1.1" 302 0
+[16/Mar/2018 14:46:31] "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+[16/Mar/2018 14:46:35] "GET /user/logged?BabelTimeToken=54af110b806282d95267456c40b1f383 HTTP/1.1" 302 0
+[16/Mar/2018 14:46:35] "GET / HTTP/1.1" 200 6105
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/css/custom-styles.css HTTP/1.1" 200 11860
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/morris/morris-0.4.3.min.css HTTP/1.1" 200 443
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/css/font-awesome.css HTTP/1.1" 200 21577
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/Lightweight-Chart/cssCharts.css HTTP/1.1" 200 10125
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/bootstrap.min.js HTTP/1.1" 200 35951
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/jquery.metisMenu.js HTTP/1.1" 200 1386
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/css/bootstrap.css HTTP/1.1" 200 117305
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/morris/raphael-2.1.0.min.js HTTP/1.1" 200 90647
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/morris/morris.js HTTP/1.1" 200 67203
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/easypiechart.js HTTP/1.1" 200 9066
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/easypiechart-data.js HTTP/1.1" 200 501
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/Lightweight-Chart/jquery.chart.js HTTP/1.1" 200 14817
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/jquery-1.10.2.js HTTP/1.1" 200 293285
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/js/custom-scripts.js HTTP/1.1" 200 6635
+[16/Mar/2018 14:46:35] "GET /static/bootstrap/assets/font-awesome/fonts/fontawesome-webfontba72.woff?v=4.0.3 HTTP/1.1" 200 44432
+[16/Mar/2018 14:46:36] "GET /static/images/babel.ico HTTP/1.1" 200 2162
+[16/Mar/2018 14:46:38] "GET /openserver/serverinfo/list HTTP/1.1" 200 10156
+[16/Mar/2018 14:46:38] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css HTTP/1.1" 200 5178
+[16/Mar/2018 14:46:38] "GET /static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js HTTP/1.1" 200 9614
+[16/Mar/2018 14:46:38] "GET /static/bootstrap/assets/js/dataTables/jquery.dataTables.js HTTP/1.1" 200 423608
+[16/Mar/2018 14:46:40] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[16/Mar/2018 14:46:42] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[16/Mar/2018 14:46:43] "POST /api/getserverstatuslist HTTP/1.1" 200 2
+[16/Mar/2018 14:46:45] "GET /openserver/opt HTTP/1.1" 200 13219
+[16/Mar/2018 14:46:45] "GET /static/bootstrap/bootstrap-datetimepicker/css/my_icon_for_datepicker.css HTTP/1.1" 200 852
+[16/Mar/2018 14:46:45] "GET /static/bootstrap/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11276
+[16/Mar/2018 14:46:45] "GET /static/bootstrap/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js HTTP/1.1" 200 70107
+[16/Mar/2018 14:46:45] "GET /static/bootstrap/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 733
+[16/Mar/2018 14:46:45] "GET /static/bootstrap/bootstrap-datetimepicker/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+[16/Mar/2018 14:46:45] "POST /api/getgameproj HTTP/1.1" 200 28
+[16/Mar/2018 14:46:47] "GET /mergerserver/opt HTTP/1.1" 200 13313
+[16/Mar/2018 14:46:47] "POST /api/getgameproj HTTP/1.1" 200 28
+[16/Mar/2018 14:46:48] "POST /api/getgameproj HTTP/1.1" 200 28
+[16/Mar/2018 14:46:49] "GET /openserver/opensvtask/list HTTP/1.1" 200 9308
+[16/Mar/2018 14:46:49] "GET /static/bootstrap/assets/js/images/sort_both.png HTTP/1.1" 200 0
+[16/Mar/2018 14:46:49] "GET /static/bootstrap/assets/js/images/sort_asc.png HTTP/1.1" 200 0
+[16/Mar/2018 14:46:52] "GET /openserver/opensvtask/detail/5 HTTP/1.1" 200 7025
+[16/Mar/2018 14:56:04] "POST /api/getserverstatuslist HTTP/1.1" 200 2

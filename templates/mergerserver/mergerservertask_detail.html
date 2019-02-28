@@ -1,0 +1,64 @@
+{% extends "index.html" %}
+f
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">合服任务单详情</h1>
+  	  <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+          <li class="active">合服任务单详情</li>
+          <li class="active">{{object.id}}</li>
+	  </ol>
+    </div>
+
+    <div id="page-inner">
+
+        <div >
+            <table class="table table-hover table-bordered">
+                    <caption>
+                        任务单信息
+                    </caption>
+                    <thead>
+                            <th>编号</th>
+                            <th>创建者</th>
+                            <th>项目名</th>
+                            <th>创建时间</th>
+                            <th>状态</th>
+                            <th>状态信息</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{object.id}}</td>
+                            <td>{{object.operator}}</td>
+                            <td>{{object.gameproject}}</td>
+                            <td>{{object.operatetime}}</td>
+                            <td>{{object.get_status_display}}</td>
+                            <td>{{object.execoutput}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+
+            <table class="table table-hover table-bordered" style="width:50%">
+                <caption>
+                    涉及服信息
+                </caption>
+                <thead>
+                    <th>游戏服ID</th>
+                    <th>状态</th>
+                    <th>状态信息</th>
+                </thead>
+                <tbody>
+                    {% for h in serverinfo %}
+                    <tr>
+                        <td>{{h.0}}</td>
+                        <td>{{h.1}}</td>
+                        <td>{{h.2}}</td>
+
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+{% endblock %}

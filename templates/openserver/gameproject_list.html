@@ -1,0 +1,73 @@
+{% extends "index.html" %}
+
+{% block header %}
+    <link href="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+{% endblock %}
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">项目</h1>
+  	  <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+		  <li class="active">项目</li>
+	  </ol>
+    </div>
+
+
+
+    <div id="page-inner">
+        <div class="btn-toolbar list-toolbar">
+            <input type="button" class="btn btn-primary" onclick=location.href="{% url 'openserver:gameproj_create' %}";
+                   value="添加"/>
+            <div class="btn-group">
+            </div>
+        </div>
+        <hr/>
+        <div class="table-responsive" >
+            <table class="table table-hover table-bordered" id="host_table">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>项目名</th>
+                    <th>代号</th>
+                    <th>负责人</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for host in object_list %}
+                    <tr>
+                        <td><a href="{% url 'openserver:gameproj_detail'  host.id %}">{{ host.id }}</a></td>
+                        <td>{{ host.name}}</td>
+                        <td>{{ host.codename}}</td>
+                        <td>{{ host.manager}}</td>
+                        <td>
+                            <a href="{% url 'openserver:gameproj_update' host.id %}" data-toggle="modal" title="修改"><i class="fa fa-pencil"></i></a>
+                            <a href="" role="button" data-toggle="modal" title="删除"><i class="fa fa-trash-o"></i></a>
+                            <a href="" role="button" data-toggle="modal" title="成员"><i class="fa fa-group"></i></a>
+
+                        </td>
+                    </tr>
+                {% empty %}
+                    <li>暂无内容</li>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+{% block script%}
+<script src="/static/bootstrap/assets/js/dataTables/jquery.dataTables.js"></script>
+<script src="/static/bootstrap/assets/js/dataTables/dataTables.bootstrap.js"></script>
+
+    <script>
+        $(document).ready(function () {
+                $('#host_table').dataTable();
+                $("[data-toggle='modal']").tooltip();
+        });
+    </script>
+{% endblock %}

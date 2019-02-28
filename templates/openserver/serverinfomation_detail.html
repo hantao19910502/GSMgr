@@ -1,0 +1,57 @@
+{% extends "index.html" %}
+
+{% block body %}
+    <div class="header">
+        <h1 class="page-header">主机组信息</h1>
+  	  <ol class="breadcrumb">
+		  <li><a href="{% url 'index' %}">首页</a></li>
+          <li class="active">主机组信息</li>
+          <li class="active">{{object.name}}</li>
+	  </ol>
+    </div>
+
+    <div id="page-inner">
+
+        <div style="width:50%;">
+            <table class="table table-hover">
+                    <tr>
+                    <th>编号</th>
+                    <td>{{object.id}}</td>
+                    </tr>
+
+                    <tr>
+                    <th>游戏服区号</th>
+                    <td>{{object.serverid}}</td>
+                    </tr>
+
+                    <tr>
+                    <th>开服日期</th>
+                    <td>{{object.opendate |safe}}</td>
+                    </tr>
+
+
+                    <tr>
+                    <th>开服时间</th>
+                    <td>{{object.opentime | safe}}</td>
+                    </tr>
+
+
+                    <tr>
+                    <th>开服机器</th>
+                    <td>{{object.serverhost}}</td>
+                    </tr>
+
+                    <tr>
+                    <th>服状态</th>
+                    <td>{{object.get_status_display}}</td>
+                    </tr>
+
+                    <tr>
+                    <th>其他信息</th>
+                    <td><textarea readonly="readonly" style="width:100%;height:100px;">{{object.extra_data}}</textarea></td>
+                    </tr>
+
+            </table>
+        </div>
+    </div>
+{% endblock %}
